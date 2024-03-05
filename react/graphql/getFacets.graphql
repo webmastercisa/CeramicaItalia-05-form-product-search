@@ -1,0 +1,21 @@
+query getFacets($selectedFacets: [SelectedFacetInput]){
+    facets(
+    hideUnavailableItems: true
+    removeHiddenFacets:true
+    selectedFacets: $selectedFacets)
+    @context(provider: "vtex.search-graphql"){    
+      facets{
+      name
+      values{
+        id
+        name
+        quantity
+        key
+        value
+        selected
+      }
+      type
+      hidden
+    }
+  }
+}

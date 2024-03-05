@@ -1,0 +1,17 @@
+query getProductSearch( $from: Int, $to: Int, $orderBy: String, $selectedFacets: [SelectedFacetInput]){
+    productSearch(
+    hideUnavailableItems: true,
+    from: $from,
+    to: $to,
+    orderBy: $orderBy,
+    selectedFacets: $selectedFacets)
+    @context(provider: "vtex.search-graphql"){
+    products{
+      productId
+      items{
+        itemId
+      }
+    }
+    recordsFiltered
+ }
+}

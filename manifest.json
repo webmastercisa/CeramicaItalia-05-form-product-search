@@ -1,0 +1,28 @@
+{
+  "vendor": "ceramicaitalia",
+  "name": "form-product-search",
+  "version": "0.0.3",
+  "title": "Perfilamiento de proyectos",
+  "description": "Perfilamiento de proyectos desarrollado por Xtrategik",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.product-summary": "2.x",
+    "vtex.session-client": "1.x",
+    "vtex.react-portal": "0.x",
+    "vtex.product-summary-context": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-graphql": "2.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

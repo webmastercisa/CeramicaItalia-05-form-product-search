@@ -1,0 +1,6 @@
+{
+  "custom-form-products":{
+    "component": "CustomFormProducts",
+    "render": "client"
+  }
+}
