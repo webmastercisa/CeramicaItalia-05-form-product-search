@@ -25,10 +25,17 @@ export const PageLocation = () => {
     
   return (
     <div className={handles.card}>
+    
         <ButtonBack onClickBtn={()=>setPage(Pages.PageSpace)}/>
       <div className={handles.content__text}>
-        <p className={handles.text__p5}>Finalmente,</p>
+        <p className={handles.text__p5}>
+        <img width="15%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c3df303f-ca07-4ba4-b53f-f2cee30c4a21___27cd657c4e2a33531c232560c5b7b275.png'/>
+          </p>
+          <p className={handles.text__p5}>
+       
+          Finalmente,</p>
       </div>
+      
       <div className={handles.content__text}>
         <p className={handles.text__p3}>¿Cuál es la espacio de tu proyecto que deseas transformar?</p>
       </div>

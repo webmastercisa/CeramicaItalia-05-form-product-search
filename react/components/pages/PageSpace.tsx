@@ -25,7 +25,16 @@ export const PageSpace = () => {
     <div className={handles.card}>
         <ButtonBack onClickBtn={()=>setPage(Pages.PageArea)}/>
       <div className={handles.content__text}>
-        <p className={handles.text__p5}>Seguro será un gran proyecto</p>
+      
+        <p className={handles.text__p5}>
+        <img width="10%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c3df303f-ca07-4ba4-b53f-f2cee30c4a21___27cd657c4e2a33531c232560c5b7b275.png'/>
+         
+          </p>
+
+          <p className={handles.text__p5}>
+       
+          Seguro será un gran proyecto
+          </p>
       </div>
       <div className={handles.content__text}>
         <p className={handles.text__p3}>¿Qué tipo de transformación desea realizar?</p>
