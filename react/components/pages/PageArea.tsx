@@ -26,7 +26,7 @@ export const PageArea = () => {
         <ButtonBack onClickBtn={()=>setPage(Pages.PageType)}/>
       <div className={handles.content__text}>
       <p className={handles.text__p5}>
-        <img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/dafd458c-e987-4495-b2ae-aabbcb7c0918___716e4ad27aa370613b341e31553d8546.png'/>
+        <img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/9feb86e9-9838-49c5-8a87-3707bfb51933___511bc6bd6e35427e5722446e254a9970.png'/>
         </p> 
 
         {/* <p className={handles.text__p5}>¡Estamos cerca!</p>

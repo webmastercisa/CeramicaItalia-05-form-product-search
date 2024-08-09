@@ -29,7 +29,7 @@ export const PageLocation = () => {
         <ButtonBack onClickBtn={()=>setPage(Pages.PageSpace)}/>
       <div className={handles.content__text}>
         <p className={handles.text__p5}>
-        <img width="15%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c3df303f-ca07-4ba4-b53f-f2cee30c4a21___27cd657c4e2a33531c232560c5b7b275.png'/>
+        <img width="15%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/2b19ffbe-fc4f-469b-b1c8-518a869f89b3___28cfb949cb058b25a9aad40e350b0faa.png'/>
           </p>
           <p className={handles.text__p5}>
        

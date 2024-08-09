@@ -28,8 +28,12 @@ export const PageEnd = () => {
             <div className={handles.content__text}>
                 <p className={handles.text__p7}>Tus preferencias</p>
             </div>
+            <div className={handles.content__Items}>
+                <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/7236f8c5-a849-438f-a662-6ef88313735c___e4a75ab68cdab5a053ba6621dd394581.jpg'/>
+             </div>
             {isMobile ? 
             <>
+            
                 <div className={handles.content__buttonSelectEndMobile}>
                     <ButtonSelectDataMobile text={`${formData.department.label}, ${formData.city.label}`} onClickBtn={()=>setPage(Pages.PageType)} />
                     <ButtonSelectDataMobile text={`${formData.areaSelect}`} onClickBtn={()=>setPage(Pages.PageArea)} />

@@ -11,7 +11,7 @@ export const PageStart = () => {
   return (
     <div className={handles.card}>
       <div className={handles.content__Items}>
-        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c6512bbe-ed3f-4b57-bb3a-c6b38a84f22a___0e6beddb2accfcb0e05956369f5ea55a.png'/>
+        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c5082974-f4a6-4c6a-94d9-dac7a7f2620b___1698ddd34088ff3d92f7bc2facfd3476.png'/>
 
       </div>
       {/* <h3 className={handles.text__h3}>¡Hola!</h3> */}

@@ -81,7 +81,7 @@ export const PageUserData = () => {
         <p className={handles.text__p2}>Ingresa la siguiente información</p>
       </div> */}
       <div className={handles.content__Items}>
-        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/fbe5f8a0-8555-41ce-b182-cda989ab10a6___82a561961b59c92c54f7d2c930039682.png'/>
+        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/5cf372c0-609e-4e24-a687-4bb612da9859___38a25ec2b4dc9bb2332781a0bb91c853.png'/>
 
       </div>
       <Input placeholder='Tu nombre' type='text' value={formData.name} onChangeValue={changeName} />
