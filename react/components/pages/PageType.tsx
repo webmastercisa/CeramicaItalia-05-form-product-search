@@ -86,8 +86,12 @@ export const PageType = () => {
     <div className={handles.card}>
         <ButtonBack onClickBtn={()=>setPage(Pages.PageUserData)}/>
       <div className={handles.content__text}>
-        <h4 className={handles.text__h4}>¡Es un placer <strong className={handles.text__h4s}>{formData.name}</strong>!</h4>
-        <p className={handles.text__p4}>Juntos vamos a encontrar el producto ideal pata tu proyecto, ¿estás listo?</p>
+      
+        <h4 className={handles.text__h4}>
+        <img width="10%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/2b19ffbe-fc4f-469b-b1c8-518a869f89b3___28cfb949cb058b25a9aad40e350b0faa.png'/>
+          ¡Es un placer <strong className={handles.text__h4s}>{formData.name}</strong>!
+          </h4>
+        <h4 className={handles.text__h4}>Juntos vamos a encontrar el producto ideal pata tu proyecto, ¿estás listo?</h4>
       </div>
       <div className={handles.content__text}>
         <p className={handles.text__p3}>¿En que ciudad se realizarás tu proyecto?</p>

@@ -25,12 +25,18 @@ export const PageArea = () => {
     <div className={handles.card}>
         <ButtonBack onClickBtn={()=>setPage(Pages.PageType)}/>
       <div className={handles.content__text}>
-        <p className={handles.text__p5}>¡Estamos cerca!</p>
-        <p className={handles.text__p6}>Ahora, dinos,</p>
+      <p className={handles.text__p5}>
+        <img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/9feb86e9-9838-49c5-8a87-3707bfb51933___511bc6bd6e35427e5722446e254a9970.png'/>
+        </p> 
+
+        {/* <p className={handles.text__p5}>¡Estamos cerca!</p>
+        <p className={handles.text__p6}>Ahora, dinos,</p> */}
+
+
       </div>
-      <div className={handles.content__text}>
+      {/* <div className={handles.content__text}>
         <p className={handles.text__p3}>¿Qué tipo de superficie deseas transformar?</p>
-      </div>
+      </div> */}
       <div className={handles.content__buttonWithImg}>
         {area.map((btn)=>{
           return <ButtonWithImg img={btn.urlImg} key={btn.__editorItemTitle}

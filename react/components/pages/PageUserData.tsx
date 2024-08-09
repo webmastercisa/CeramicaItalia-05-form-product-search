@@ -76,9 +76,13 @@ export const PageUserData = () => {
   return (
     <div className={handles.card}>
         <ButtonBack onClickBtn={()=>setPage(Pages.PageStart)}/>
-      <h3 className={handles.text__h3}>¡Queremos conocerte!</h3>
+      {/* <h3 className={handles.text__h3}>¡Queremos conocerte!</h3>
       <div className={handles.content__text}>
         <p className={handles.text__p2}>Ingresa la siguiente información</p>
+      </div> */}
+      <div className={handles.content__Items}>
+        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/5cf372c0-609e-4e24-a687-4bb612da9859___38a25ec2b4dc9bb2332781a0bb91c853.png'/>
+
       </div>
       <Input placeholder='Tu nombre' type='text' value={formData.name} onChangeValue={changeName} />
       <Input placeholder='Tu correo electrónico' type='email' value={formData.email} onChangeValue={changeEmail} />
