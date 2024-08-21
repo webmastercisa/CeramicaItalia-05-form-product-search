@@ -7,11 +7,11 @@ import { Pages, PagesContext } from '../../context/Context'
 export const PageStart = () => {
   const handles = useCssHandles(CSS_HANDLES)
   const { setPage } = useContext(PagesContext)
-  
+
   return (
     <div className={handles.card}>
       <div className={handles.content__Items}>
-        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c5082974-f4a6-4c6a-94d9-dac7a7f2620b___1698ddd34088ff3d92f7bc2facfd3476.png'/>
+        <img src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c5082974-f4a6-4c6a-94d9-dac7a7f2620b___1698ddd34088ff3d92f7bc2facfd3476.png' />
 
       </div>
       {/* <h3 className={handles.text__h3}>¡Hola!</h3> */}
@@ -20,7 +20,8 @@ export const PageStart = () => {
         <p className={handles.text__p}>Cuando estés listo haz clic en siguiente para empezar</p>
       </div>
       <div className={handles.content__button__init}>
-        <Button text='Siguiente' onClickBtn={()=>setPage(Pages.PageUserData)} />
+        {/*<Button text='Siguiente' onClickBtn={() => setPage(Pages.PageUserData)} /> */}
+        <Button text='Siguiente' onClickBtn={() => setPage(Pages.PageArea)} />
       </div>
     </div>
   )
