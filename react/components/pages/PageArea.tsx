@@ -18,10 +18,29 @@ export const PageArea = () => {
     setStateFormData({ ...formData, areaSelect: select })
   }
   useEffect(() => {
-    if (formData.areaSelect !== "") {
-      setValidArea(true)
+
+    /**
+     * Se tiene una variable localstorage, que puede ser null o tener valor. Si tiene
+     * valor, se entiende que viene del perfilador. Por eso se asigna el valor a la variable
+     * formDataFilters, y se envía a la última página.
+     *
+     */
+    let VarTmp = null
+    VarTmp = localStorage.getItem("perfilamiento");
+    if (VarTmp != null) {
+      localStorage.removeItem("perfilamiento");
+      localStorage.setItem("formDataFilters", '' + VarTmp);
+      //setEndPageF(true)
+      setPage(Pages.PageEnd)
     }
-    setStateFormData(formData, false)
+    else {
+      if (formData.areaSelect !== "") {
+        setValidArea(true)
+      }
+
+      setStateFormData(formData, false)
+    }
+
   }, [formData])
 
   return (
@@ -55,7 +74,7 @@ export const PageArea = () => {
 
       */ }
       <div className={handles.content__button}>
-        <Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} />
+        {/*<Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} /> */}
         <Button text='Siguiente' onClickBtn={() => setPage(Pages.PageSpace)} disabled={!validArea} />
       </div>
     </div>

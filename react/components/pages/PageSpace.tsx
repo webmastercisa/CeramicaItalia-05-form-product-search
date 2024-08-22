@@ -55,7 +55,8 @@ export const PageSpace = () => {
       </div>
 
       <div className={handles.content__button}>
-        <Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} />
+        {/*<Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} />*/}
+        <Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageArea)} />
         <Button text='Siguiente' onClickBtn={() => setPage(Pages.PageLocation)} disabled={!validSpace} />
       </div>
     </div>

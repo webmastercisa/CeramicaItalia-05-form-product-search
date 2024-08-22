@@ -55,10 +55,19 @@ export const PageLocation = () => {
         <ButtonSelectData text={`Producto: ${formData.spaceSelect}`} textBtn='Cambiar' onClickBtn={() => setPage(Pages.PageSpace)} />
       </div>
       <div className={handles.content__button}>
-        <Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} />
+        {/*<Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageStart)} />*/}
+        <Button text='Cancelar' secondary onClickBtn={() => setPage(Pages.PageArea)} />
         <Button text='Siguiente' onClickBtn={() => {
           setEndPageF(true)
           setStateFormData({ ...formData }, true)
+          console.log('===========================  Init Grabando los filtro ===========================================================');
+          let VarTmp = null
+          VarTmp = localStorage.getItem("formDataFilters");
+          console.log(VarTmp);
+          localStorage.removeItem("perfilamiento");
+          localStorage.setItem("perfilamiento", '' + VarTmp);
+          console.log('===========================  Fin Grabando los filtro  ===========================================================');
+
         }} disabled={!validLocation} />
       </div>
     </div>
