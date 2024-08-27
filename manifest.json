@@ -1,7 +1,7 @@
 {
   "vendor": "ceramicaitalia",
   "name": "form-product-search",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "title": "Perfilamiento de proyectos",
   "description": "Perfilamiento de proyectos desarrollado por Xtrategik",
   "builders": {
