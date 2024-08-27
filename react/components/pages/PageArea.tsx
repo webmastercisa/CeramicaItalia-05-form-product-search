@@ -49,7 +49,8 @@ export const PageArea = () => {
       {/*<ButtonBack onClickBtn={() => setPage(Pages.PageStart)} />*/}
       <div className={handles.content__text}>
         <p className={handles.text__p5}>
-          <img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/9feb86e9-9838-49c5-8a87-3707bfb51933___511bc6bd6e35427e5722446e254a9970.png' />
+          {/*<img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/9feb86e9-9838-49c5-8a87-3707bfb51933___511bc6bd6e35427e5722446e254a9970.png' />*/}
+          <img width="70%" src='https://ceramicaitalia.vtexassets.com/assets/vtex.file-manager-graphql/images/c5302f34-2f8f-457a-b43c-1013d9ed8d22___8e858b1a4a78babb9dd46190ff490c23.png' />
         </p>
 
         {/* <p className={handles.text__p5}>¡Estamos cerca!</p>
